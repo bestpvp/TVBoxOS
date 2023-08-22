@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://www.bestpvp.site/关注码上放生/时光机");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
@@ -186,7 +186,7 @@ public class ApiConfig {
                             callback.success();
                         } catch (Throwable th) {
                             th.printStackTrace();
-                            callback.error("解析配置失败");
+                            callback.error("时光机解析失败, 关注【码上放生】公众号, 获取免费更新");
                         }
                     }
 

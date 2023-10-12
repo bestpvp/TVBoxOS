@@ -106,6 +106,7 @@ public class AbsJson implements Serializable {
         public String vod_year; //: "2021"
 
         public Movie.Video toXmlVideo() {
+            String prefix = "🔥码上时光机: "; 
             Movie.Video video = new Movie.Video();
             video.tag = vod_tag;
             video.last = vod_time;
@@ -133,7 +134,7 @@ public class AbsJson implements Serializable {
                 List<Movie.Video.UrlBean.UrlInfo> infoList = new ArrayList<>();
                 for (int i = 0; i < playFlags.length; i++) {
                     Movie.Video.UrlBean.UrlInfo urlInfo = new Movie.Video.UrlBean.UrlInfo();
-                    urlInfo.flag = playFlags[i];
+                    urlInfo.flag = prefix + playFlags[i];
                     if (i < playUrls.length)
                         urlInfo.urls = playUrls[i];
                     else
@@ -143,7 +144,7 @@ public class AbsJson implements Serializable {
                 urlBean.infoList = infoList;
             }
             video.urlBean = urlBean;
-            video.des = vod_content;// <![CDATA[权来]
+            video.des = prefix + vod_content;// <![CDATA[权来]
             return video;
         }
     }

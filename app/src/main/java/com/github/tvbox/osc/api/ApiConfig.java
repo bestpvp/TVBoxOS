@@ -186,7 +186,7 @@ public class ApiConfig {
                             callback.success();
                         } catch (Throwable th) {
                             th.printStackTrace();
-                            callback.error("时光机解析失败, 关注【码上放生】公众号, 获取免费更新");
+                            callback.error("时光TV解析失败, 关注【码上放生】公众号, 获取免费更新");
                         }
                     }
 

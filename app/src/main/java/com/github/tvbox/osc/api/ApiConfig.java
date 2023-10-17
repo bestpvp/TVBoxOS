@@ -127,7 +127,8 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://ghproxy.com/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github.json");
+        // String apiUrl = Hawk.get(HawkConfig.API_URL, "https://ghproxy.com/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://www.bestpvp.site/关注码上放生/时光机");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;

@@ -127,9 +127,8 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        // String apiUrl = Hawk.get(HawkConfig.API_URL, "https://ghproxy.com/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github.json");
         // String apiUrl = Hawk.get(HawkConfig.API_URL, "https://www.bestpvp.site/关注码上放生/时光机");
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://ghproxy.liuzhicong.com/https://raw.githubusercontent.com/bestpvp/tm/main/source/stable/master_stable_github_1.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
@@ -188,7 +187,7 @@ public class ApiConfig {
                             callback.success();
                         } catch (Throwable th) {
                             th.printStackTrace();
-                            callback.error("凤雏解析失败, 关注【码上放生】公众号, 获取免费更新");
+                            callback.error("解析失败, 关注【码上放生】公众号, 获取免费更新");
                         }
                     }
 

@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.util.urlhttp;
+package com.github.tvbox.fengchu.util.urlhttp;
 
 import java.io.File;
 import java.util.List;

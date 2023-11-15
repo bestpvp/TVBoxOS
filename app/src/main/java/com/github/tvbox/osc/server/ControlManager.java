@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.server;
+package com.github.tvbox.fengchu.server;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import com.github.tvbox.osc.event.RefreshEvent;
-import com.github.tvbox.osc.receiver.SearchReceiver;
-import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.fengchu.event.RefreshEvent;
+import com.github.tvbox.fengchu.receiver.SearchReceiver;
+import com.github.tvbox.fengchu.util.HawkConfig;
 import com.orhanobut.hawk.Hawk;
 
 import org.greenrobot.eventbus.EventBus;

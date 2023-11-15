@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.dialog;
+package com.github.tvbox.fengchu.ui.dialog;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.ui.adapter.ApiHistoryDialogAdapter;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.ui.adapter.ApiHistoryDialogAdapter;
 import com.owen.tvrecyclerview.widget.TvRecyclerView;
 
 import org.jetbrains.annotations.NotNull;

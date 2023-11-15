@@ -1,6 +1,6 @@
-package com.github.tvbox.osc.bean;
+package com.github.tvbox.fengchu.bean;
 
-import com.github.tvbox.osc.api.ApiConfig;
+import com.github.tvbox.fengchu.api.ApiConfig;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.picasso;
+package com.github.tvbox.fengchu.picasso;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;

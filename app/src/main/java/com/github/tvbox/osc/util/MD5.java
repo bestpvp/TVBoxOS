@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.util;
+package com.github.tvbox.fengchu.util;
 
 import android.text.TextUtils;
 import android.util.Base64;

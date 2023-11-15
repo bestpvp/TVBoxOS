@@ -25,12 +25,12 @@
  *
  */
 
-package com.github.tvbox.osc.subtitle.format;
+package com.github.tvbox.fengchu.subtitle.format;
 
 
-import com.github.tvbox.osc.subtitle.model.Subtitle;
-import com.github.tvbox.osc.subtitle.model.Time;
-import com.github.tvbox.osc.subtitle.model.TimedTextObject;
+import com.github.tvbox.fengchu.subtitle.model.Subtitle;
+import com.github.tvbox.fengchu.subtitle.model.Time;
+import com.github.tvbox.fengchu.subtitle.model.TimedTextObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;

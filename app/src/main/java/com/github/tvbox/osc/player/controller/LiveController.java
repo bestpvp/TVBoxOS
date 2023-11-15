@@ -1,12 +1,12 @@
-package com.github.tvbox.osc.player.controller;
+package com.github.tvbox.fengchu.player.controller;
 
 import android.content.Context;
 import android.view.MotionEvent;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.base.App;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.base.App;
 
 import org.jetbrains.annotations.NotNull;
 import org.json.JSONException;

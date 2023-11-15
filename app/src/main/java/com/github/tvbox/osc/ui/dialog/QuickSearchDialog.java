@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.dialog;
+package com.github.tvbox.fengchu.ui.dialog;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -7,11 +7,11 @@ import android.view.View;
 import androidx.annotation.NonNull;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.bean.Movie;
-import com.github.tvbox.osc.event.RefreshEvent;
-import com.github.tvbox.osc.ui.adapter.QuickSearchAdapter;
-import com.github.tvbox.osc.ui.adapter.SearchWordAdapter;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.bean.Movie;
+import com.github.tvbox.fengchu.event.RefreshEvent;
+import com.github.tvbox.fengchu.ui.adapter.QuickSearchAdapter;
+import com.github.tvbox.fengchu.ui.adapter.SearchWordAdapter;
 import com.owen.tvrecyclerview.widget.TvRecyclerView;
 import com.owen.tvrecyclerview.widget.V7LinearLayoutManager;
 

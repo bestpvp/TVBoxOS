@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.base;
+package com.github.tvbox.fengchu.base;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,10 +16,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.PermissionChecker;
 
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.callback.EmptyCallback;
-import com.github.tvbox.osc.callback.LoadingCallback;
-import com.github.tvbox.osc.util.AppManager;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.callback.EmptyCallback;
+import com.github.tvbox.fengchu.callback.LoadingCallback;
+import com.github.tvbox.fengchu.util.AppManager;
 import com.kingja.loadsir.callback.Callback;
 import com.kingja.loadsir.core.LoadService;
 import com.kingja.loadsir.core.LoadSir;

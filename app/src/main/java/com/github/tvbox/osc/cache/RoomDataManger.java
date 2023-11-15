@@ -1,14 +1,14 @@
-package com.github.tvbox.osc.cache;
+package com.github.tvbox.fengchu.cache;
 
 import android.text.TextUtils;
 
-import com.github.tvbox.osc.api.ApiConfig;
-import com.github.tvbox.osc.bean.SourceBean;
-import com.github.tvbox.osc.bean.VodInfo;
-import com.github.tvbox.osc.data.AppDataManager;
+import com.github.tvbox.fengchu.api.ApiConfig;
+import com.github.tvbox.fengchu.bean.SourceBean;
+import com.github.tvbox.fengchu.bean.VodInfo;
+import com.github.tvbox.fengchu.data.AppDataManager;
 import com.google.gson.ExclusionStrategy;
-import com.github.tvbox.osc.util.HawkConfig;
-import com.github.tvbox.osc.util.HistoryHelper;
+import com.github.tvbox.fengchu.util.HawkConfig;
+import com.github.tvbox.fengchu.util.HistoryHelper;
 import com.google.gson.FieldAttributes;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

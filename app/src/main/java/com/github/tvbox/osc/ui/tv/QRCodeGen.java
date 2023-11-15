@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.tv;
+package com.github.tvbox.fengchu.ui.tv;
 
 import android.graphics.Bitmap;
 

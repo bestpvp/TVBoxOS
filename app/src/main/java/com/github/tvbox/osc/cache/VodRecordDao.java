@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.cache;
+package com.github.tvbox.fengchu.cache;
 
 import androidx.room.Dao;
 import androidx.room.Delete;

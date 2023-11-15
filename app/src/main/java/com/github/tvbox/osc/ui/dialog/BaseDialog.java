@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.dialog;
+package com.github.tvbox.fengchu.ui.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.osc.R;
+import com.github.tvbox.fengchu.R;
 
 import xyz.doikki.videoplayer.util.CutoutUtil;
 

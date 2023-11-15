@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.player.thirdparty;
+package com.github.tvbox.fengchu.player.thirdparty;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -9,7 +9,7 @@ import android.net.Uri;
 import android.os.Parcelable;
 import android.util.Log;
 
-import com.github.tvbox.osc.base.App;
+import com.github.tvbox.fengchu.base.App;
 
 import java.net.URLEncoder;
 import java.util.HashMap;

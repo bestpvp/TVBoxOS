@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.fragment;
+package com.github.tvbox.fengchu.ui.fragment;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -40,38 +40,38 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.DiffUtil;
 
 import com.github.catvod.crawler.Spider;
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.api.ApiConfig;
-import com.github.tvbox.osc.base.App;
-import com.github.tvbox.osc.base.BaseLazyFragment;
-import com.github.tvbox.osc.bean.ParseBean;
-import com.github.tvbox.osc.bean.SourceBean;
-import com.github.tvbox.osc.bean.Subtitle;
-import com.github.tvbox.osc.bean.VodInfo;
-import com.github.tvbox.osc.cache.CacheManager;
-import com.github.tvbox.osc.event.RefreshEvent;
-import com.github.tvbox.osc.player.IjkMediaPlayer;
-import com.github.tvbox.osc.player.MyVideoView;
-import com.github.tvbox.osc.player.TrackInfo;
-import com.github.tvbox.osc.player.TrackInfoBean;
-import com.github.tvbox.osc.player.controller.VodController;
-import com.github.tvbox.osc.server.ControlManager;
-import com.github.tvbox.osc.ui.adapter.SelectDialogAdapter;
-import com.github.tvbox.osc.ui.dialog.SearchSubtitleDialog;
-import com.github.tvbox.osc.ui.dialog.SelectDialog;
-import com.github.tvbox.osc.ui.dialog.SubtitleDialog;
-import com.github.tvbox.osc.util.AdBlocker;
-import com.github.tvbox.osc.util.DefaultConfig;
-import com.github.tvbox.osc.util.FileUtils;
-import com.github.tvbox.osc.util.HawkConfig;
-import com.github.tvbox.osc.util.LOG;
-import com.github.tvbox.osc.util.MD5;
-import com.github.tvbox.osc.util.PlayerHelper;
-import com.github.tvbox.osc.util.VideoParseRuler;
-import com.github.tvbox.osc.util.XWalkUtils;
-import com.github.tvbox.osc.util.thunder.Jianpian;
-import com.github.tvbox.osc.util.thunder.Thunder;
-import com.github.tvbox.osc.viewmodel.SourceViewModel;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.api.ApiConfig;
+import com.github.tvbox.fengchu.base.App;
+import com.github.tvbox.fengchu.base.BaseLazyFragment;
+import com.github.tvbox.fengchu.bean.ParseBean;
+import com.github.tvbox.fengchu.bean.SourceBean;
+import com.github.tvbox.fengchu.bean.Subtitle;
+import com.github.tvbox.fengchu.bean.VodInfo;
+import com.github.tvbox.fengchu.cache.CacheManager;
+import com.github.tvbox.fengchu.event.RefreshEvent;
+import com.github.tvbox.fengchu.player.IjkMediaPlayer;
+import com.github.tvbox.fengchu.player.MyVideoView;
+import com.github.tvbox.fengchu.player.TrackInfo;
+import com.github.tvbox.fengchu.player.TrackInfoBean;
+import com.github.tvbox.fengchu.player.controller.VodController;
+import com.github.tvbox.fengchu.server.ControlManager;
+import com.github.tvbox.fengchu.ui.adapter.SelectDialogAdapter;
+import com.github.tvbox.fengchu.ui.dialog.SearchSubtitleDialog;
+import com.github.tvbox.fengchu.ui.dialog.SelectDialog;
+import com.github.tvbox.fengchu.ui.dialog.SubtitleDialog;
+import com.github.tvbox.fengchu.util.AdBlocker;
+import com.github.tvbox.fengchu.util.DefaultConfig;
+import com.github.tvbox.fengchu.util.FileUtils;
+import com.github.tvbox.fengchu.util.HawkConfig;
+import com.github.tvbox.fengchu.util.LOG;
+import com.github.tvbox.fengchu.util.MD5;
+import com.github.tvbox.fengchu.util.PlayerHelper;
+import com.github.tvbox.fengchu.util.VideoParseRuler;
+import com.github.tvbox.fengchu.util.XWalkUtils;
+import com.github.tvbox.fengchu.util.thunder.Jianpian;
+import com.github.tvbox.fengchu.util.thunder.Thunder;
+import com.github.tvbox.fengchu.viewmodel.SourceViewModel;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.AbsCallback;
 import com.lzy.okgo.model.HttpHeaders;
@@ -573,7 +573,7 @@ public class PlayFragment extends BaseLazyFragment {
                 @Override
                 public void onTimedText(IMediaPlayer mp, IjkTimedText text) {
                     if (mController.mSubtitleView.isInternal) {
-                        com.github.tvbox.osc.subtitle.model.Subtitle subtitle = new com.github.tvbox.osc.subtitle.model.Subtitle();
+                        com.github.tvbox.fengchu.subtitle.model.Subtitle subtitle = new com.github.tvbox.fengchu.subtitle.model.Subtitle();
                         subtitle.content = text.getText();
                         mController.mSubtitleView.onSubtitleChanged(subtitle);
                     }

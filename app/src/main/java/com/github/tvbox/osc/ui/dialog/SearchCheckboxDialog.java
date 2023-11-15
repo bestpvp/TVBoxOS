@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.dialog;
+package com.github.tvbox.fengchu.ui.dialog;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,10 +10,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.DiffUtil;
 
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.bean.SourceBean;
-import com.github.tvbox.osc.ui.adapter.CheckboxSearchAdapter;
-import com.github.tvbox.osc.util.FastClickCheckUtil;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.bean.SourceBean;
+import com.github.tvbox.fengchu.ui.adapter.CheckboxSearchAdapter;
+import com.github.tvbox.fengchu.util.FastClickCheckUtil;
 import com.owen.tvrecyclerview.widget.TvRecyclerView;
 import com.owen.tvrecyclerview.widget.V7GridLayoutManager;
 import com.owen.tvrecyclerview.widget.V7LinearLayoutManager;

@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.api;
+package com.github.tvbox.fengchu.api;
 
 import android.app.Activity;
 import android.net.Uri;
@@ -8,19 +8,19 @@ import android.util.Base64;
 import com.github.catvod.crawler.JarLoader;
 import com.github.catvod.crawler.JsLoader;
 import com.github.catvod.crawler.Spider;
-import com.github.tvbox.osc.base.App;
-import com.github.tvbox.osc.bean.LiveChannelGroup;
-import com.github.tvbox.osc.bean.IJKCode;
-import com.github.tvbox.osc.bean.LiveChannelItem;
-import com.github.tvbox.osc.bean.ParseBean;
-import com.github.tvbox.osc.bean.SourceBean;
-import com.github.tvbox.osc.server.ControlManager;
-import com.github.tvbox.osc.util.AES;
-import com.github.tvbox.osc.util.AdBlocker;
-import com.github.tvbox.osc.util.DefaultConfig;
-import com.github.tvbox.osc.util.HawkConfig;
-import com.github.tvbox.osc.util.MD5;
-import com.github.tvbox.osc.util.VideoParseRuler;
+import com.github.tvbox.fengchu.base.App;
+import com.github.tvbox.fengchu.bean.LiveChannelGroup;
+import com.github.tvbox.fengchu.bean.IJKCode;
+import com.github.tvbox.fengchu.bean.LiveChannelItem;
+import com.github.tvbox.fengchu.bean.ParseBean;
+import com.github.tvbox.fengchu.bean.SourceBean;
+import com.github.tvbox.fengchu.server.ControlManager;
+import com.github.tvbox.fengchu.util.AES;
+import com.github.tvbox.fengchu.util.AdBlocker;
+import com.github.tvbox.fengchu.util.DefaultConfig;
+import com.github.tvbox.fengchu.util.HawkConfig;
+import com.github.tvbox.fengchu.util.MD5;
+import com.github.tvbox.fengchu.util.VideoParseRuler;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -127,10 +127,9 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        // String apiUrl = Hawk.get(HawkConfig.API_URL, "https://www.bestpvp.site/关注码上放生/时光机");
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://codeberg.org/bestpvp/tm/raw/branch/main/source/stable/main.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/bestpvp/tm/raw/master/source/stable/main.json");
         if (apiUrl.isEmpty()) {
-            callback.error("-1");
+            callback.error("关注 [码上放生] 公众号，获取最新的 [时光机] 数据源");
             return;
         }
         File cache = new File(App.getInstance().getFilesDir().getAbsolutePath() + "/" + MD5.encode(apiUrl));

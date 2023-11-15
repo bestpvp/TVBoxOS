@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.tv.widget;
+package com.github.tvbox.fengchu.ui.tv.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -16,7 +16,7 @@ import com.chad.library.adapter.base.BaseMultiItemQuickAdapter;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.chad.library.adapter.base.entity.MultiItemEntity;
-import com.github.tvbox.osc.R;
+import com.github.tvbox.fengchu.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

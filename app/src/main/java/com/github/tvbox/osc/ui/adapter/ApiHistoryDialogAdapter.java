@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.adapter;
+package com.github.tvbox.fengchu.ui.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.tvbox.osc.R;
+import com.github.tvbox.fengchu.R;
 
 import org.jetbrains.annotations.NotNull;
 

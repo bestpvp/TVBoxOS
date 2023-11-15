@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.util.js;
+package com.github.tvbox.fengchu.util.js;
 
 import android.text.TextUtils;
 

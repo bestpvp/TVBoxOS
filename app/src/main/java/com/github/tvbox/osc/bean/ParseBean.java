@@ -1,8 +1,8 @@
-package com.github.tvbox.osc.bean;
+package com.github.tvbox.fengchu.bean;
 
 import android.util.Base64;
 
-import com.github.tvbox.osc.util.DefaultConfig;
+import com.github.tvbox.fengchu.util.DefaultConfig;
 
 /**
  * @author pj567

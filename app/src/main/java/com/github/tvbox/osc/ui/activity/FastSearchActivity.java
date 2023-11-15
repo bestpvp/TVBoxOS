@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.activity;
+package com.github.tvbox.fengchu.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,21 +14,21 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.github.catvod.crawler.JsLoader;
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.api.ApiConfig;
-import com.github.tvbox.osc.base.BaseActivity;
-import com.github.tvbox.osc.bean.AbsXml;
-import com.github.tvbox.osc.bean.Movie;
-import com.github.tvbox.osc.bean.SourceBean;
-import com.github.tvbox.osc.event.RefreshEvent;
-import com.github.tvbox.osc.event.ServerEvent;
-import com.github.tvbox.osc.ui.adapter.FastListAdapter;
-import com.github.tvbox.osc.ui.adapter.FastSearchAdapter;
-import com.github.tvbox.osc.ui.adapter.SearchWordAdapter;
-import com.github.tvbox.osc.util.FastClickCheckUtil;
-import com.github.tvbox.osc.util.SearchHelper;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.api.ApiConfig;
+import com.github.tvbox.fengchu.base.BaseActivity;
+import com.github.tvbox.fengchu.bean.AbsXml;
+import com.github.tvbox.fengchu.bean.Movie;
+import com.github.tvbox.fengchu.bean.SourceBean;
+import com.github.tvbox.fengchu.event.RefreshEvent;
+import com.github.tvbox.fengchu.event.ServerEvent;
+import com.github.tvbox.fengchu.ui.adapter.FastListAdapter;
+import com.github.tvbox.fengchu.ui.adapter.FastSearchAdapter;
+import com.github.tvbox.fengchu.ui.adapter.SearchWordAdapter;
+import com.github.tvbox.fengchu.util.FastClickCheckUtil;
+import com.github.tvbox.fengchu.util.SearchHelper;
 
-import com.github.tvbox.osc.viewmodel.SourceViewModel;
+import com.github.tvbox.fengchu.viewmodel.SourceViewModel;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

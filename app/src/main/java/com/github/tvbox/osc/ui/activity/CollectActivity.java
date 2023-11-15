@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.activity;
+package com.github.tvbox.fengchu.ui.activity;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -9,16 +9,16 @@ import android.widget.TextView;
 import android.widget.ImageView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.api.ApiConfig;
-import com.github.tvbox.osc.base.BaseActivity;
-import com.github.tvbox.osc.cache.RoomDataManger;
-import com.github.tvbox.osc.cache.VodCollect;
-import com.github.tvbox.osc.event.RefreshEvent;
-import com.github.tvbox.osc.ui.adapter.CollectAdapter;
-import com.github.tvbox.osc.ui.dialog.ConfirmClearDialog;
-import com.github.tvbox.osc.util.FastClickCheckUtil;
-import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.api.ApiConfig;
+import com.github.tvbox.fengchu.base.BaseActivity;
+import com.github.tvbox.fengchu.cache.RoomDataManger;
+import com.github.tvbox.fengchu.cache.VodCollect;
+import com.github.tvbox.fengchu.event.RefreshEvent;
+import com.github.tvbox.fengchu.ui.adapter.CollectAdapter;
+import com.github.tvbox.fengchu.ui.dialog.ConfirmClearDialog;
+import com.github.tvbox.fengchu.util.FastClickCheckUtil;
+import com.github.tvbox.fengchu.util.HawkConfig;
 import com.owen.tvrecyclerview.widget.TvRecyclerView;
 import com.owen.tvrecyclerview.widget.V7GridLayoutManager;
 

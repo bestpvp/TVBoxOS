@@ -1,8 +1,8 @@
-package com.github.tvbox.osc.util.js;
+package com.github.tvbox.fengchu.util.js;
 
 import android.text.TextUtils;
 
-import com.github.tvbox.osc.util.StringUtils;
+import com.github.tvbox.fengchu.util.StringUtils;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.util;
+package com.github.tvbox.fengchu.util;
 
 import java.nio.charset.Charset;
 import java.util.regex.Matcher;

@@ -23,7 +23,7 @@
  *              Buddha bless, there will never be bug!!!
  */
 
-package com.github.tvbox.osc.subtitle;
+package com.github.tvbox.fengchu.subtitle;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -32,13 +32,13 @@ import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.github.tvbox.osc.base.App;
-import com.github.tvbox.osc.cache.CacheManager;
-import com.github.tvbox.osc.subtitle.model.Subtitle;
-import com.github.tvbox.osc.subtitle.model.Time;
-import com.github.tvbox.osc.util.FileUtils;
-import com.github.tvbox.osc.util.MD5;
-import com.github.tvbox.osc.util.SubtitleHelper;
+import com.github.tvbox.fengchu.base.App;
+import com.github.tvbox.fengchu.cache.CacheManager;
+import com.github.tvbox.fengchu.subtitle.model.Subtitle;
+import com.github.tvbox.fengchu.subtitle.model.Time;
+import com.github.tvbox.fengchu.util.FileUtils;
+import com.github.tvbox.fengchu.util.MD5;
+import com.github.tvbox.fengchu.util.SubtitleHelper;
 
 import java.io.File;
 import java.util.ArrayList;

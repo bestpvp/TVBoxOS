@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.util.urlhttp;
+package com.github.tvbox.fengchu.util.urlhttp;
 
 import java.util.Base64;
 import java.security.spec.AlgorithmParameterSpec;

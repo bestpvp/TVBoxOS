@@ -1,13 +1,13 @@
-package com.github.tvbox.osc.player.thirdparty;
+package com.github.tvbox.fengchu.player.thirdparty;
 
 import android.app.Activity;
 import android.text.TextUtils;
 
-import com.github.tvbox.osc.base.App;
-import com.github.tvbox.osc.bean.IpScanningVo;
-import com.github.tvbox.osc.server.RemoteServer;
-import com.github.tvbox.osc.util.HawkConfig;
-import com.github.tvbox.osc.util.IpScanning;
+import com.github.tvbox.fengchu.base.App;
+import com.github.tvbox.fengchu.bean.IpScanningVo;
+import com.github.tvbox.fengchu.server.RemoteServer;
+import com.github.tvbox.fengchu.util.HawkConfig;
+import com.github.tvbox.fengchu.util.IpScanning;
 import com.orhanobut.hawk.Hawk;
 
 import java.io.IOException;

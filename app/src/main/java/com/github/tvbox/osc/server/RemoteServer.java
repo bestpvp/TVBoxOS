@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.server;
+package com.github.tvbox.fengchu.server;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -6,13 +6,13 @@ import android.net.wifi.WifiManager;
 import android.os.Environment;
 import android.util.Base64;
 
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.api.ApiConfig;
-import com.github.tvbox.osc.base.App;
-import com.github.tvbox.osc.event.RefreshEvent;
-import com.github.tvbox.osc.event.ServerEvent;
-import com.github.tvbox.osc.util.FileUtils;
-import com.github.tvbox.osc.util.OkGoHelper;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.api.ApiConfig;
+import com.github.tvbox.fengchu.base.App;
+import com.github.tvbox.fengchu.event.RefreshEvent;
+import com.github.tvbox.fengchu.event.ServerEvent;
+import com.github.tvbox.fengchu.util.FileUtils;
+import com.github.tvbox.fengchu.util.OkGoHelper;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 

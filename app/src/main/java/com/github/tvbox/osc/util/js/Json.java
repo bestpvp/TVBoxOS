@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.util.js;
+package com.github.tvbox.fengchu.util.js;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

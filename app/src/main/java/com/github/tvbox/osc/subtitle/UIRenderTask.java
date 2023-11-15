@@ -23,10 +23,10 @@
  *              Buddha bless, there will never be bug!!!
  */
 
-package com.github.tvbox.osc.subtitle;
+package com.github.tvbox.fengchu.subtitle;
 
-import com.github.tvbox.osc.subtitle.model.Subtitle;
-import com.github.tvbox.osc.subtitle.runtime.AppTaskExecutor;
+import com.github.tvbox.fengchu.subtitle.model.Subtitle;
+import com.github.tvbox.fengchu.subtitle.runtime.AppTaskExecutor;
 
 /**
  * @author AveryZhong.

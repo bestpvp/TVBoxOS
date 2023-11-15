@@ -1,6 +1,6 @@
-package com.github.tvbox.osc.callback;
+package com.github.tvbox.fengchu.callback;
 
-import com.github.tvbox.osc.R;
+import com.github.tvbox.fengchu.R;
 import com.kingja.loadsir.callback.Callback;
 
 /**

@@ -1,8 +1,8 @@
-package com.github.tvbox.osc.util;
+package com.github.tvbox.fengchu.util;
 
-import com.github.tvbox.osc.api.ApiConfig;
-import com.github.tvbox.osc.bean.SourceBean;
-import com.github.tvbox.osc.ui.activity.SearchActivity;
+import com.github.tvbox.fengchu.api.ApiConfig;
+import com.github.tvbox.fengchu.bean.SourceBean;
+import com.github.tvbox.fengchu.ui.activity.SearchActivity;
 import com.orhanobut.hawk.Hawk;
 
 import java.util.ArrayList;

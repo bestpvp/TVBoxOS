@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.bean;
+package com.github.tvbox.fengchu.bean;
 
 import com.google.gson.annotations.SerializedName;
 

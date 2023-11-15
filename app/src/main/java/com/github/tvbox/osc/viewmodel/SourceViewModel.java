@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.viewmodel;
+package com.github.tvbox.fengchu.viewmodel;
 
 import android.text.TextUtils;
 
@@ -9,22 +9,22 @@ import androidx.lifecycle.ViewModel;
 
 import com.github.catvod.crawler.JsLoader;
 import com.github.catvod.crawler.Spider;
-import com.github.tvbox.osc.api.ApiConfig;
-import com.github.tvbox.osc.base.App;
-import com.github.tvbox.osc.bean.AbsJson;
-import com.github.tvbox.osc.bean.AbsSortJson;
-import com.github.tvbox.osc.bean.AbsSortXml;
-import com.github.tvbox.osc.bean.AbsXml;
-import com.github.tvbox.osc.bean.Movie;
-import com.github.tvbox.osc.bean.MovieSort;
-import com.github.tvbox.osc.bean.SourceBean;
-import com.github.tvbox.osc.event.RefreshEvent;
-import com.github.tvbox.osc.player.thirdparty.RemoteTVBox;
-import com.github.tvbox.osc.util.DefaultConfig;
-import com.github.tvbox.osc.util.FileUtils;
-import com.github.tvbox.osc.util.HawkConfig;
-import com.github.tvbox.osc.util.LOG;
-import com.github.tvbox.osc.util.thunder.Thunder;
+import com.github.tvbox.fengchu.api.ApiConfig;
+import com.github.tvbox.fengchu.base.App;
+import com.github.tvbox.fengchu.bean.AbsJson;
+import com.github.tvbox.fengchu.bean.AbsSortJson;
+import com.github.tvbox.fengchu.bean.AbsSortXml;
+import com.github.tvbox.fengchu.bean.AbsXml;
+import com.github.tvbox.fengchu.bean.Movie;
+import com.github.tvbox.fengchu.bean.MovieSort;
+import com.github.tvbox.fengchu.bean.SourceBean;
+import com.github.tvbox.fengchu.event.RefreshEvent;
+import com.github.tvbox.fengchu.player.thirdparty.RemoteTVBox;
+import com.github.tvbox.fengchu.util.DefaultConfig;
+import com.github.tvbox.fengchu.util.FileUtils;
+import com.github.tvbox.fengchu.util.HawkConfig;
+import com.github.tvbox.fengchu.util.LOG;
+import com.github.tvbox.fengchu.util.thunder.Thunder;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

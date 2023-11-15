@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.dialog;
+package com.github.tvbox.fengchu.ui.dialog;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,12 +16,12 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelStoreOwner;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.bean.Subtitle;
-import com.github.tvbox.osc.bean.SubtitleData;
-import com.github.tvbox.osc.ui.adapter.SearchSubtitleAdapter;
-import com.github.tvbox.osc.util.FastClickCheckUtil;
-import com.github.tvbox.osc.viewmodel.SubtitleViewModel;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.bean.Subtitle;
+import com.github.tvbox.fengchu.bean.SubtitleData;
+import com.github.tvbox.fengchu.ui.adapter.SearchSubtitleAdapter;
+import com.github.tvbox.fengchu.util.FastClickCheckUtil;
+import com.github.tvbox.fengchu.viewmodel.SubtitleViewModel;
 import com.owen.tvrecyclerview.widget.TvRecyclerView;
 import com.owen.tvrecyclerview.widget.V7LinearLayoutManager;
 

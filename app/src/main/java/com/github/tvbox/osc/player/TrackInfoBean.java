@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.player;
+package com.github.tvbox.fengchu.player;
 
 public class TrackInfoBean {
     public String name;

@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.server;
+package com.github.tvbox.fengchu.server;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

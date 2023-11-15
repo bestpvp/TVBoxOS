@@ -1,12 +1,12 @@
-package com.github.tvbox.osc.receiver;
+package com.github.tvbox.fengchu.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.github.tvbox.osc.event.ServerEvent;
-import com.github.tvbox.osc.ui.activity.SearchActivity;
-import com.github.tvbox.osc.util.AppManager;
+import com.github.tvbox.fengchu.event.ServerEvent;
+import com.github.tvbox.fengchu.ui.activity.SearchActivity;
+import com.github.tvbox.fengchu.util.AppManager;
 
 import org.greenrobot.eventbus.EventBus;
 

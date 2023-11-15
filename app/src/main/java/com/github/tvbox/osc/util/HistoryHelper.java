@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.util;
+package com.github.tvbox.fengchu.util;
 
 public class HistoryHelper {
     private static Integer[] hisNumArray = {30,50,70};

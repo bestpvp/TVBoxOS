@@ -25,13 +25,13 @@
  *
  */
 
-package com.github.tvbox.osc.subtitle.format;
+package com.github.tvbox.fengchu.subtitle.format;
 
-import com.github.tvbox.osc.subtitle.exception.FatalParsingException;
-import com.github.tvbox.osc.subtitle.model.Style;
-import com.github.tvbox.osc.subtitle.model.Subtitle;
-import com.github.tvbox.osc.subtitle.model.Time;
-import com.github.tvbox.osc.subtitle.model.TimedTextObject;
+import com.github.tvbox.fengchu.subtitle.exception.FatalParsingException;
+import com.github.tvbox.fengchu.subtitle.model.Style;
+import com.github.tvbox.fengchu.subtitle.model.Subtitle;
+import com.github.tvbox.fengchu.subtitle.model.Time;
+import com.github.tvbox.fengchu.subtitle.model.TimedTextObject;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;

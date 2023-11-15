@@ -1,10 +1,10 @@
-package com.github.tvbox.osc.ui.dialog;
+package com.github.tvbox.fengchu.ui.dialog;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.osc.R;
+import com.github.tvbox.fengchu.R;
 
 import org.jetbrains.annotations.NotNull;
 

@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.event;
+package com.github.tvbox.fengchu.event;
 
 public class LogEvent {
     private String text;

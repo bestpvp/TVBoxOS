@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.adapter;
+package com.github.tvbox.fengchu.ui.adapter;
 
 
 import android.annotation.SuppressLint;
@@ -14,10 +14,10 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.bean.SourceBean;
-import com.github.tvbox.osc.util.LOG;
-import com.github.tvbox.osc.util.SearchHelper;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.bean.SourceBean;
+import com.github.tvbox.fengchu.util.LOG;
+import com.github.tvbox.fengchu.util.SearchHelper;
 
 import org.jetbrains.annotations.NotNull;
 

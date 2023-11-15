@@ -1,12 +1,12 @@
-package com.github.tvbox.osc.ui.adapter;
+package com.github.tvbox.fengchu.ui.adapter;
 
 import android.graphics.Color;
 import android.widget.TextView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.github.tvbox.osc.R;
-import com.github.tvbox.osc.bean.LiveChannelGroup;
+import com.github.tvbox.fengchu.R;
+import com.github.tvbox.fengchu.bean.LiveChannelGroup;
 
 import java.util.ArrayList;
 

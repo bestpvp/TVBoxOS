@@ -25,7 +25,7 @@
  *
  */
 
-package com.github.tvbox.osc.subtitle.model;
+package com.github.tvbox.fengchu.subtitle.model;
 
 public class Subtitle {
 	

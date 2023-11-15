@@ -4,7 +4,8 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId 'com.github.tvbox.osc'
+        // applicationId 'com.github.tvbox.fengchu'
+        applicationId 'com.github.tvbox.fengchu'
         minSdkVersion 18
         targetSdkVersion 26
         versionCode 1

@@ -1,6 +1,6 @@
-package com.github.tvbox.osc.util;
+package com.github.tvbox.fengchu.util;
 
-import com.github.tvbox.osc.bean.IpScanningVo;
+import com.github.tvbox.fengchu.bean.IpScanningVo;
 
 import java.io.IOException;
 import java.net.InetAddress;

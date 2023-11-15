@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.player;
+package com.github.tvbox.fengchu.player;
 
 import java.util.ArrayList;
 import java.util.List;

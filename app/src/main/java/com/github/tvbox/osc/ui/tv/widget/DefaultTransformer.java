@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.ui.tv.widget;
+package com.github.tvbox.fengchu.ui.tv.widget;
 
 import android.view.View;
 

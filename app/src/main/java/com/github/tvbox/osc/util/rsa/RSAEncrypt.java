@@ -1,4 +1,4 @@
-package com.github.tvbox.osc.util.rsa;
+package com.github.tvbox.fengchu.util.rsa;
 
 import android.util.Log;
 

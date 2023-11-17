@@ -129,7 +129,7 @@ public class ApiConfig {
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
         String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/bestpvp/tm/raw/master/source/stable/main.json");
         if (apiUrl.isEmpty()) {
-            callback.error("关注[码上放生]公众号，获取最新的[时光机]数据源");
+            callback.error("关注[码上放生]公众号\n获取最新的[时光机]数据源");
             return;
         }
         File cache = new File(App.getInstance().getFilesDir().getAbsolutePath() + "/" + MD5.encode(apiUrl));
@@ -186,7 +186,7 @@ public class ApiConfig {
                             callback.success();
                         } catch (Throwable th) {
                             th.printStackTrace();
-                            callback.error("解析失败, 关注[码上放生]公众号");
+                            callback.error("解析失败\n关注[码上放生]公众号");
                         }
                     }
 

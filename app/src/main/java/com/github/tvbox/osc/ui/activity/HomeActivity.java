@@ -300,7 +300,7 @@ public class HomeActivity extends BaseActivity {
                         mHandler.post(new Runnable() {
                             @Override
                             public void run() {
-                                Toast.makeText(HomeActivity.this, "jar加载失败\n关注[码上放生]公众号", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(HomeActivity.this, "jar加载失败\n关注[码上放生]公众号", Toast.LENGTH_LONG).show();
                                 initData();
                             }
                         });

@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.receiver;
+package com.github.tvbox.osc.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

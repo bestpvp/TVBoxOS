@@ -1,8 +1,8 @@
-package com.github.tvbox.fengchu.util;
+package com.github.tvbox.osc.util;
 
 import android.content.res.AssetManager;
 
-import com.github.tvbox.fengchu.base.App;
+import com.github.tvbox.osc.base.App;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

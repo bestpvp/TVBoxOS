@@ -23,11 +23,11 @@
  *              Buddha bless, there will never be bug!!!
  */
 
-package com.github.tvbox.fengchu.subtitle;
+package com.github.tvbox.osc.subtitle;
 
 import androidx.annotation.Nullable;
 
-import com.github.tvbox.fengchu.subtitle.model.Subtitle;
+import com.github.tvbox.osc.subtitle.model.Subtitle;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.activity;
+package com.github.tvbox.osc.ui.activity;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -26,31 +26,31 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.viewpager.widget.ViewPager;
 
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.api.ApiConfig;
-import com.github.tvbox.fengchu.base.BaseActivity;
-import com.github.tvbox.fengchu.base.BaseLazyFragment;
-import com.github.tvbox.fengchu.bean.AbsSortXml;
-import com.github.tvbox.fengchu.bean.MovieSort;
-import com.github.tvbox.fengchu.bean.SourceBean;
-import com.github.tvbox.fengchu.event.RefreshEvent;
-import com.github.tvbox.fengchu.server.ControlManager;
-import com.github.tvbox.fengchu.ui.adapter.HomePageAdapter;
-import com.github.tvbox.fengchu.ui.adapter.SelectDialogAdapter;
-import com.github.tvbox.fengchu.ui.adapter.SortAdapter;
-import com.github.tvbox.fengchu.ui.dialog.SelectDialog;
-import com.github.tvbox.fengchu.ui.dialog.TipDialog;
-import com.github.tvbox.fengchu.ui.fragment.GridFragment;
-import com.github.tvbox.fengchu.ui.fragment.UserFragment;
-import com.github.tvbox.fengchu.ui.tv.widget.DefaultTransformer;
-import com.github.tvbox.fengchu.ui.tv.widget.FixedSpeedScroller;
-import com.github.tvbox.fengchu.ui.tv.widget.NoScrollViewPager;
-import com.github.tvbox.fengchu.ui.tv.widget.ViewObj;
-import com.github.tvbox.fengchu.util.AppManager;
-import com.github.tvbox.fengchu.util.DefaultConfig;
-import com.github.tvbox.fengchu.util.HawkConfig;
-import com.github.tvbox.fengchu.util.LOG;
-import com.github.tvbox.fengchu.viewmodel.SourceViewModel;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.api.ApiConfig;
+import com.github.tvbox.osc.base.BaseActivity;
+import com.github.tvbox.osc.base.BaseLazyFragment;
+import com.github.tvbox.osc.bean.AbsSortXml;
+import com.github.tvbox.osc.bean.MovieSort;
+import com.github.tvbox.osc.bean.SourceBean;
+import com.github.tvbox.osc.event.RefreshEvent;
+import com.github.tvbox.osc.server.ControlManager;
+import com.github.tvbox.osc.ui.adapter.HomePageAdapter;
+import com.github.tvbox.osc.ui.adapter.SelectDialogAdapter;
+import com.github.tvbox.osc.ui.adapter.SortAdapter;
+import com.github.tvbox.osc.ui.dialog.SelectDialog;
+import com.github.tvbox.osc.ui.dialog.TipDialog;
+import com.github.tvbox.osc.ui.fragment.GridFragment;
+import com.github.tvbox.osc.ui.fragment.UserFragment;
+import com.github.tvbox.osc.ui.tv.widget.DefaultTransformer;
+import com.github.tvbox.osc.ui.tv.widget.FixedSpeedScroller;
+import com.github.tvbox.osc.ui.tv.widget.NoScrollViewPager;
+import com.github.tvbox.osc.ui.tv.widget.ViewObj;
+import com.github.tvbox.osc.util.AppManager;
+import com.github.tvbox.osc.util.DefaultConfig;
+import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.osc.util.LOG;
+import com.github.tvbox.osc.viewmodel.SourceViewModel;
 import com.orhanobut.hawk.Hawk;
 import com.owen.tvrecyclerview.widget.TvRecyclerView;
 import com.owen.tvrecyclerview.widget.V7GridLayoutManager;
@@ -283,7 +283,7 @@ public class HomeActivity extends BaseActivity {
                             @Override
                             public void run() {
                                 if (!useCacheConfig)
-                                    Toast.makeText(HomeActivity.this, "关注【码上放生】公众号, 获取免费更新", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(HomeActivity.this, "本软件为免费开源项目, 以学习交流为目的, 所有内容来自网络公开数据, 不涉及制作、上传及储存内容, 如有广告均为三方提供, 请勿相信!", Toast.LENGTH_SHORT).show();
                                 initData();
                             }
                         }, 50);
@@ -300,7 +300,7 @@ public class HomeActivity extends BaseActivity {
                         mHandler.post(new Runnable() {
                             @Override
                             public void run() {
-                                Toast.makeText(HomeActivity.this, "jar加载失败", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(HomeActivity.this, "jar加载失败, 关注[码上放生]公众号", Toast.LENGTH_SHORT).show();
                                 initData();
                             }
                         });
@@ -473,7 +473,7 @@ public class HomeActivity extends BaseActivity {
             super.onBackPressed();
         } else {
             mExitTime = System.currentTimeMillis();
-            Toast.makeText(mContext, "再按一次返回键退出应用", Toast.LENGTH_SHORT).show();            
+            Toast.makeText(mContext, "再按一次返回键退出应用, 关注[码上放生]公众号", Toast.LENGTH_SHORT).show();            
         }
     }
 

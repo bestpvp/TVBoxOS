@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.cache;
+package com.github.tvbox.osc.cache;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

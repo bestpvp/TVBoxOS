@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.player.render;
+package com.github.tvbox.osc.player.render;
 
 import android.content.Context;
 import android.graphics.Bitmap;

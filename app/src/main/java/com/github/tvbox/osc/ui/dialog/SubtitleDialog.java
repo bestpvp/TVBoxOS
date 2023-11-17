@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.dialog;
+package com.github.tvbox.osc.ui.dialog;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.util.FastClickCheckUtil;
-import com.github.tvbox.fengchu.util.SubtitleHelper;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.util.FastClickCheckUtil;
+import com.github.tvbox.osc.util.SubtitleHelper;
 
 import org.jetbrains.annotations.NotNull;
 

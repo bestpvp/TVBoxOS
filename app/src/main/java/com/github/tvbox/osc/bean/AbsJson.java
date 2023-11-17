@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.bean;
+package com.github.tvbox.osc.bean;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -106,7 +106,7 @@ public class AbsJson implements Serializable {
         public String vod_year; //: "2021"
 
         public Movie.Video toXmlVideo() {
-            String prefix = "🔥关注【码上放生】公众号: "; 
+            String prefix = "🔥关注[码上放生]公众号: "; 
             Movie.Video video = new Movie.Video();
             video.tag = vod_tag;
             video.last = vod_time;

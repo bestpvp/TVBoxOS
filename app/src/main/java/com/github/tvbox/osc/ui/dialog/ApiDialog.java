@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.dialog;
+package com.github.tvbox.osc.ui.dialog;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,12 +10,12 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.event.RefreshEvent;
-import com.github.tvbox.fengchu.server.ControlManager;
-import com.github.tvbox.fengchu.ui.adapter.ApiHistoryDialogAdapter;
-import com.github.tvbox.fengchu.ui.tv.QRCodeGen;
-import com.github.tvbox.fengchu.util.HawkConfig;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.event.RefreshEvent;
+import com.github.tvbox.osc.server.ControlManager;
+import com.github.tvbox.osc.ui.adapter.ApiHistoryDialogAdapter;
+import com.github.tvbox.osc.ui.tv.QRCodeGen;
+import com.github.tvbox.osc.util.HawkConfig;
 import com.hjq.permissions.OnPermissionCallback;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;

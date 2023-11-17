@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.adapter;
+package com.github.tvbox.osc.ui.adapter;
 
 import android.graphics.Color;
 import android.util.Log;
@@ -7,9 +7,9 @@ import android.widget.TextView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.ui.tv.widget.AudioWaveView;
-import com.github.tvbox.fengchu.bean.Epginfo;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.ui.tv.widget.AudioWaveView;
+import com.github.tvbox.osc.bean.Epginfo;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.util;
+package com.github.tvbox.osc.util;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -6,10 +6,10 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.github.tvbox.fengchu.api.ApiConfig;
-import com.github.tvbox.fengchu.bean.MovieSort;
-import com.github.tvbox.fengchu.bean.SourceBean;
-import com.github.tvbox.fengchu.server.ControlManager;
+import com.github.tvbox.osc.api.ApiConfig;
+import com.github.tvbox.osc.bean.MovieSort;
+import com.github.tvbox.osc.bean.SourceBean;
+import com.github.tvbox.osc.server.ControlManager;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 

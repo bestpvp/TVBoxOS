@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.activity;
+package com.github.tvbox.osc.ui.activity;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -8,10 +8,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.base.BaseActivity;
-import com.github.tvbox.fengchu.server.ControlManager;
-import com.github.tvbox.fengchu.ui.tv.QRCodeGen;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.base.BaseActivity;
+import com.github.tvbox.osc.server.ControlManager;
+import com.github.tvbox.osc.ui.tv.QRCodeGen;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

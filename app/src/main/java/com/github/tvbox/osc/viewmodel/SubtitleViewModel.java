@@ -1,12 +1,12 @@
-package com.github.tvbox.fengchu.viewmodel;
+package com.github.tvbox.osc.viewmodel;
 
 import android.text.TextUtils;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.github.tvbox.fengchu.bean.Subtitle;
-import com.github.tvbox.fengchu.bean.SubtitleData;
-import com.github.tvbox.fengchu.ui.dialog.SearchSubtitleDialog;
+import com.github.tvbox.osc.bean.Subtitle;
+import com.github.tvbox.osc.bean.SubtitleData;
+import com.github.tvbox.osc.ui.dialog.SearchSubtitleDialog;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.AbsCallback;
 

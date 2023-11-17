@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.player;
+package com.github.tvbox.osc.player;
 
 import android.content.Context;
 import android.util.AttributeSet;

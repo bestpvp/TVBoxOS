@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.adapter;
+package com.github.tvbox.osc.ui.adapter;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.github.tvbox.fengchu.R;
+import com.github.tvbox.osc.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

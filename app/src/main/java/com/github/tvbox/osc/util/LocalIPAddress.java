@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.util;
+package com.github.tvbox.osc.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

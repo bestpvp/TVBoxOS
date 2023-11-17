@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.util.SSL;
+package com.github.tvbox.osc.util.SSL;
 
 import android.os.Build;
 

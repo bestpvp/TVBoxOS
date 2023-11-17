@@ -1,8 +1,8 @@
-package com.github.tvbox.fengchu.util;
+package com.github.tvbox.osc.util;
 
 import android.util.Log;
 
-import com.github.tvbox.fengchu.event.LogEvent;
+import com.github.tvbox.osc.event.LogEvent;
 
 import org.greenrobot.eventbus.EventBus;
 

@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.bean;
+package com.github.tvbox.osc.bean;
 import java.util.ArrayList;
 import java.util.Date;
 

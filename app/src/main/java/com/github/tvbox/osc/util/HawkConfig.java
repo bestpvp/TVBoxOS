@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.util;
+package com.github.tvbox.osc.util;
 
 /**
  * @author pj567

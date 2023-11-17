@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.util.live;
+package com.github.tvbox.osc.util.live;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

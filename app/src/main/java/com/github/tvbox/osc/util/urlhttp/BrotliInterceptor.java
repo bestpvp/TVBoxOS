@@ -1,10 +1,10 @@
-package com.github.tvbox.fengchu.util.urlhttp;
+package com.github.tvbox.osc.util.urlhttp;
 
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.github.tvbox.fengchu.util.urlhttp.internal.BrotliSource;
+import com.github.tvbox.osc.util.urlhttp.internal.BrotliSource;
 
 import org.jetbrains.annotations.NotNull;
 

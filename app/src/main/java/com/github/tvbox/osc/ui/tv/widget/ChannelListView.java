@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.tv.widget;
+package com.github.tvbox.osc.ui.tv.widget;
 
 
 
@@ -7,7 +7,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.widget.ListView;
 
-import com.github.tvbox.fengchu.ui.activity.LivePlayActivity;
+import com.github.tvbox.osc.ui.activity.LivePlayActivity;
 
 public class ChannelListView extends ListView {
     DataChangedListener dataChangedListener;

@@ -1,13 +1,13 @@
-package com.github.tvbox.fengchu.player;
+package com.github.tvbox.osc.player;
 
 import android.content.Context;
 import android.text.TextUtils;
 
-import com.github.tvbox.fengchu.api.ApiConfig;
-import com.github.tvbox.fengchu.bean.IJKCode;
-import com.github.tvbox.fengchu.util.FileUtils;
-import com.github.tvbox.fengchu.util.HawkConfig;
-import com.github.tvbox.fengchu.util.MD5;
+import com.github.tvbox.osc.api.ApiConfig;
+import com.github.tvbox.osc.bean.IJKCode;
+import com.github.tvbox.osc.util.FileUtils;
+import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.osc.util.MD5;
 import com.orhanobut.hawk.Hawk;
 
 import java.io.File;

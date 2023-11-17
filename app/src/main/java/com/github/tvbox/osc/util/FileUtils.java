@@ -1,12 +1,12 @@
-package com.github.tvbox.fengchu.util;
+package com.github.tvbox.osc.util;
 
 import android.content.Context;
 import android.os.Environment;
 import android.text.TextUtils;
 import android.util.Base64;
-import com.github.tvbox.fengchu.base.App;
-import com.github.tvbox.fengchu.server.ControlManager;
-import com.github.tvbox.fengchu.util.StringUtils;
+import com.github.tvbox.osc.base.App;
+import com.github.tvbox.osc.server.ControlManager;
+import com.github.tvbox.osc.util.StringUtils;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.lzy.okgo.OkGo;

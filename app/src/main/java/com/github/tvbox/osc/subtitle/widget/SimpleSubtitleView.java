@@ -23,7 +23,7 @@
  *              Buddha bless, there will never be bug!!!
  */
 
-package com.github.tvbox.fengchu.subtitle.widget;
+package com.github.tvbox.osc.subtitle.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -39,11 +39,11 @@ import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.github.tvbox.fengchu.cache.CacheManager;
-import com.github.tvbox.fengchu.subtitle.DefaultSubtitleEngine;
-import com.github.tvbox.fengchu.subtitle.SubtitleEngine;
-import com.github.tvbox.fengchu.subtitle.model.Subtitle;
-import com.github.tvbox.fengchu.util.MD5;
+import com.github.tvbox.osc.cache.CacheManager;
+import com.github.tvbox.osc.subtitle.DefaultSubtitleEngine;
+import com.github.tvbox.osc.subtitle.SubtitleEngine;
+import com.github.tvbox.osc.subtitle.model.Subtitle;
+import com.github.tvbox.osc.util.MD5;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.github.tvbox.fengchu.subtitle;
+package com.github.tvbox.osc.subtitle;
 
-import com.github.tvbox.fengchu.subtitle.model.TimedTextObject;
+import com.github.tvbox.osc.subtitle.model.TimedTextObject;
 
 public class SubtitleLoadSuccessResult {
     public String fileName;

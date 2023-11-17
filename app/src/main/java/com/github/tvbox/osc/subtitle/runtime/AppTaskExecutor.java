@@ -23,7 +23,7 @@
  *              Buddha bless, there will never be bug!!!
  */
 
-package com.github.tvbox.fengchu.subtitle.runtime;
+package com.github.tvbox.osc.subtitle.runtime;
 
 
 import androidx.annotation.NonNull;

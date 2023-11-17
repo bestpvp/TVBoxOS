@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.dialog;
+package com.github.tvbox.osc.ui.dialog;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -9,9 +9,9 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.util.FastClickCheckUtil;
-import com.github.tvbox.fengchu.util.XWalkUtils;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.util.FastClickCheckUtil;
+import com.github.tvbox.osc.util.XWalkUtils;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.FileCallback;
 import com.lzy.okgo.model.Progress;

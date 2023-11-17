@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.dialog;
+package com.github.tvbox.osc.ui.dialog;
 
 import android.content.Context;
 import android.view.View;
@@ -6,12 +6,12 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.bean.VodInfo;
-import com.github.tvbox.fengchu.cache.RoomDataManger;
-import com.github.tvbox.fengchu.cache.VodCollect;
-import com.github.tvbox.fengchu.ui.activity.CollectActivity;
-import com.github.tvbox.fengchu.ui.activity.HistoryActivity;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.bean.VodInfo;
+import com.github.tvbox.osc.cache.RoomDataManger;
+import com.github.tvbox.osc.cache.VodCollect;
+import com.github.tvbox.osc.ui.activity.CollectActivity;
+import com.github.tvbox.osc.ui.activity.HistoryActivity;
 
 import org.jetbrains.annotations.NotNull;
 

@@ -1,13 +1,13 @@
-package com.github.tvbox.fengchu.util.js;
+package com.github.tvbox.osc.util.js;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Base64;
 import com.whl.quickjs.wrapper.UriUtil;
 import com.github.catvod.crawler.Spider;
-import com.github.tvbox.fengchu.util.FileUtils;
-import com.github.tvbox.fengchu.util.LOG;
-import com.github.tvbox.fengchu.util.MD5;
+import com.github.tvbox.osc.util.FileUtils;
+import com.github.tvbox.osc.util.LOG;
+import com.github.tvbox.osc.util.MD5;
 
 import com.whl.quickjs.android.QuickJSLoader;
 import com.whl.quickjs.wrapper.Function;

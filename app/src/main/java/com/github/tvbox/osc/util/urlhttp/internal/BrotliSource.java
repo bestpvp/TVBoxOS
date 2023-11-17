@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.util.urlhttp.internal;
+package com.github.tvbox.osc.util.urlhttp.internal;
 
 import org.brotli.dec.BrotliInputStream;
 

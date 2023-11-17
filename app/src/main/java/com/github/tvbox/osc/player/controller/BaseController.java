@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.player.controller;
+package com.github.tvbox.osc.player.controller;
 
 import android.app.Activity;
 import android.content.Context;

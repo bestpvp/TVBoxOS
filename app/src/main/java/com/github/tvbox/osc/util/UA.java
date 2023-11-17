@@ -1,6 +1,6 @@
-package com.github.tvbox.fengchu.util;
+package com.github.tvbox.osc.util;
 
-import com.github.tvbox.fengchu.base.App;
+import com.github.tvbox.osc.base.App;
 
 import java.io.DataInputStream;
 import java.io.FileNotFoundException;

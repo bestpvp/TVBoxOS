@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.cache;
+package com.github.tvbox.osc.cache;
 
 import androidx.annotation.NonNull;
 import androidx.room.Entity;

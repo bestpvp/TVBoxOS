@@ -1,11 +1,11 @@
-package com.github.tvbox.fengchu.util.js;
+package com.github.tvbox.osc.util.js;
 
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 
-import com.github.tvbox.fengchu.server.ControlManager;
-import com.github.tvbox.fengchu.util.LOG;
-import com.github.tvbox.fengchu.util.rsa.RSAEncrypt;
+import com.github.tvbox.osc.server.ControlManager;
+import com.github.tvbox.osc.util.LOG;
+import com.github.tvbox.osc.util.rsa.RSAEncrypt;
 import com.whl.quickjs.wrapper.ContextSetter;
 import com.whl.quickjs.wrapper.Function;
 import com.whl.quickjs.wrapper.JSArray;

@@ -1,11 +1,11 @@
-package com.github.tvbox.fengchu.bean;
+package com.github.tvbox.osc.bean;
 
 import androidx.annotation.NonNull;
 import androidx.exifinterface.media.ExifInterface;
 
-import com.github.tvbox.fengchu.api.ApiConfig;
-import com.github.tvbox.fengchu.util.HawkConfig;
-import com.github.tvbox.fengchu.util.PlayerHelper;
+import com.github.tvbox.osc.api.ApiConfig;
+import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.osc.util.PlayerHelper;
 import com.orhanobut.hawk.Hawk;
 
 import org.json.JSONException;

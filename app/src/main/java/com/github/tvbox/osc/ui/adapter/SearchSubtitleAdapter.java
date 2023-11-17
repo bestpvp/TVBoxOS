@@ -1,9 +1,9 @@
-package com.github.tvbox.fengchu.ui.adapter;
+package com.github.tvbox.osc.ui.adapter;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.bean.Subtitle;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.bean.Subtitle;
 
 import java.util.ArrayList;
 

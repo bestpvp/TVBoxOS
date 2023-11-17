@@ -1,6 +1,6 @@
-package com.github.tvbox.fengchu.bean;
+package com.github.tvbox.osc.bean;
 
-import com.github.tvbox.fengchu.util.HawkConfig;
+import com.github.tvbox.osc.util.HawkConfig;
 import com.orhanobut.hawk.Hawk;
 
 import java.text.ParsePosition;

@@ -1,7 +1,7 @@
-package com.github.tvbox.fengchu.ui.tv.widget;
+package com.github.tvbox.osc.ui.tv.widget;
 
 
-import com.github.tvbox.fengchu.R;
+import com.github.tvbox.osc.R;
 
 public final class LoadMoreView extends com.chad.library.adapter.base.loadmore.LoadMoreView {
 

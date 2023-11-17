@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.util.js;
+package com.github.tvbox.osc.util.js;
 
 public class UTF8BOMFighter {
     private static final byte[] UTF8_BOM_BYTES = new byte[] {

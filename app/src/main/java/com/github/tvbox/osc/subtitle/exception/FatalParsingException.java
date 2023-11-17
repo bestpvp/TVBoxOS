@@ -25,7 +25,7 @@
  *
  */
 
-package com.github.tvbox.fengchu.subtitle.exception;
+package com.github.tvbox.osc.subtitle.exception;
 
 /**
  * This class represents problems that may arise during the parsing of a subttile file.

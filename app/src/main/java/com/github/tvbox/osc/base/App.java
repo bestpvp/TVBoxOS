@@ -1,20 +1,20 @@
-package com.github.tvbox.fengchu.base;
+package com.github.tvbox.osc.base;
 
 import android.app.Activity;
 import androidx.multidex.MultiDexApplication;
 import com.github.catvod.crawler.JsLoader;
-import com.github.tvbox.fengchu.bean.VodInfo;
-import com.github.tvbox.fengchu.callback.EmptyCallback;
-import com.github.tvbox.fengchu.callback.LoadingCallback;
-import com.github.tvbox.fengchu.data.AppDataManager;
-import com.github.tvbox.fengchu.server.ControlManager;
-import com.github.tvbox.fengchu.util.AppManager;
-import com.github.tvbox.fengchu.util.EpgUtil;
-import com.github.tvbox.fengchu.util.FileUtils;
-import com.github.tvbox.fengchu.util.HawkConfig;
-import com.github.tvbox.fengchu.util.LOG;
-import com.github.tvbox.fengchu.util.OkGoHelper;
-import com.github.tvbox.fengchu.util.PlayerHelper;
+import com.github.tvbox.osc.bean.VodInfo;
+import com.github.tvbox.osc.callback.EmptyCallback;
+import com.github.tvbox.osc.callback.LoadingCallback;
+import com.github.tvbox.osc.data.AppDataManager;
+import com.github.tvbox.osc.server.ControlManager;
+import com.github.tvbox.osc.util.AppManager;
+import com.github.tvbox.osc.util.EpgUtil;
+import com.github.tvbox.osc.util.FileUtils;
+import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.osc.util.LOG;
+import com.github.tvbox.osc.util.OkGoHelper;
+import com.github.tvbox.osc.util.PlayerHelper;
 
 import com.kingja.loadsir.core.LoadSir;
 import com.orhanobut.hawk.Hawk;

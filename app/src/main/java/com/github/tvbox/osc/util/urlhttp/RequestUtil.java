@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.util.urlhttp;
+package com.github.tvbox.osc.util.urlhttp;
 
 import android.text.TextUtils;
 

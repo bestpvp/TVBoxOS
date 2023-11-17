@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.player.controller;
+package com.github.tvbox.osc.player.controller;
 
 import android.app.Activity;
 import android.annotation.SuppressLint;
@@ -19,19 +19,19 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.api.ApiConfig;
-import com.github.tvbox.fengchu.bean.IJKCode;
-import com.github.tvbox.fengchu.bean.ParseBean;
-import com.github.tvbox.fengchu.subtitle.widget.SimpleSubtitleView;
-import com.github.tvbox.fengchu.ui.adapter.ParseAdapter;
-import com.github.tvbox.fengchu.ui.adapter.SelectDialogAdapter;
-import com.github.tvbox.fengchu.ui.dialog.SelectDialog;
-import com.github.tvbox.fengchu.util.FastClickCheckUtil;
-import com.github.tvbox.fengchu.util.HawkConfig;
-import com.github.tvbox.fengchu.util.PlayerHelper;
-import com.github.tvbox.fengchu.util.ScreenUtils;
-import com.github.tvbox.fengchu.util.SubtitleHelper;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.api.ApiConfig;
+import com.github.tvbox.osc.bean.IJKCode;
+import com.github.tvbox.osc.bean.ParseBean;
+import com.github.tvbox.osc.subtitle.widget.SimpleSubtitleView;
+import com.github.tvbox.osc.ui.adapter.ParseAdapter;
+import com.github.tvbox.osc.ui.adapter.SelectDialogAdapter;
+import com.github.tvbox.osc.ui.dialog.SelectDialog;
+import com.github.tvbox.osc.util.FastClickCheckUtil;
+import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.osc.util.PlayerHelper;
+import com.github.tvbox.osc.util.ScreenUtils;
+import com.github.tvbox.osc.util.SubtitleHelper;
 import com.orhanobut.hawk.Hawk;
 import com.owen.tvrecyclerview.widget.TvRecyclerView;
 import com.owen.tvrecyclerview.widget.V7LinearLayoutManager;

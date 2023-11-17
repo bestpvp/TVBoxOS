@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.adapter;
+package com.github.tvbox.osc.ui.adapter;
 
 import android.text.TextUtils;
 import android.view.View;
@@ -8,13 +8,13 @@ import android.widget.TextView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.api.ApiConfig;
-import com.github.tvbox.fengchu.bean.VodInfo;
-import com.github.tvbox.fengchu.picasso.RoundTransformation;
-import com.github.tvbox.fengchu.util.DefaultConfig;
-import com.github.tvbox.fengchu.util.HawkConfig;
-import com.github.tvbox.fengchu.util.MD5;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.api.ApiConfig;
+import com.github.tvbox.osc.bean.VodInfo;
+import com.github.tvbox.osc.picasso.RoundTransformation;
+import com.github.tvbox.osc.util.DefaultConfig;
+import com.github.tvbox.osc.util.HawkConfig;
+import com.github.tvbox.osc.util.MD5;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

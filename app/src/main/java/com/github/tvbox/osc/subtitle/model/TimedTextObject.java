@@ -25,13 +25,13 @@
  *
  */
 
-package com.github.tvbox.fengchu.subtitle.model;
+package com.github.tvbox.osc.subtitle.model;
 
-import com.github.tvbox.fengchu.subtitle.format.FormatASS;
-import com.github.tvbox.fengchu.subtitle.format.FormatSCC;
-import com.github.tvbox.fengchu.subtitle.format.FormatSRT;
-import com.github.tvbox.fengchu.subtitle.format.FormatSTL;
-import com.github.tvbox.fengchu.subtitle.format.FormatTTML;
+import com.github.tvbox.osc.subtitle.format.FormatASS;
+import com.github.tvbox.osc.subtitle.format.FormatSCC;
+import com.github.tvbox.osc.subtitle.format.FormatSRT;
+import com.github.tvbox.osc.subtitle.format.FormatSTL;
+import com.github.tvbox.osc.subtitle.format.FormatTTML;
 
 import java.util.Hashtable;
 import java.util.Iterator;

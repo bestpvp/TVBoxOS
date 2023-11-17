@@ -1,4 +1,4 @@
-package com.github.tvbox.fengchu.ui.dialog;
+package com.github.tvbox.osc.ui.dialog;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,13 +10,13 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 
-import com.github.tvbox.fengchu.R;
-import com.github.tvbox.fengchu.callback.EmptyCallback;
-import com.github.tvbox.fengchu.callback.LoadingCallback;
-import com.github.tvbox.fengchu.event.RefreshEvent;
-import com.github.tvbox.fengchu.player.thirdparty.RemoteTVBox;
-import com.github.tvbox.fengchu.ui.adapter.SelectDialogAdapter;
-import com.github.tvbox.fengchu.ui.fragment.ModelSettingFragment;
+import com.github.tvbox.osc.R;
+import com.github.tvbox.osc.callback.EmptyCallback;
+import com.github.tvbox.osc.callback.LoadingCallback;
+import com.github.tvbox.osc.event.RefreshEvent;
+import com.github.tvbox.osc.player.thirdparty.RemoteTVBox;
+import com.github.tvbox.osc.ui.adapter.SelectDialogAdapter;
+import com.github.tvbox.osc.ui.fragment.ModelSettingFragment;
 import com.kingja.loadsir.callback.Callback;
 import com.kingja.loadsir.core.LoadService;
 import com.kingja.loadsir.core.LoadSir;

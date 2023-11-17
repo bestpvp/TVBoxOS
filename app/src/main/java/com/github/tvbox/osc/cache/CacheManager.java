@@ -1,6 +1,6 @@
-package com.github.tvbox.fengchu.cache;
+package com.github.tvbox.osc.cache;
 
-import com.github.tvbox.fengchu.data.AppDataManager;
+import com.github.tvbox.osc.data.AppDataManager;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

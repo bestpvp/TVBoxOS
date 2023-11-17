@@ -1,14 +1,14 @@
-package com.github.tvbox.fengchu.data;
+package com.github.tvbox.osc.data;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;
 
-import com.github.tvbox.fengchu.cache.Cache;
-import com.github.tvbox.fengchu.cache.CacheDao;
-import com.github.tvbox.fengchu.cache.VodCollect;
-import com.github.tvbox.fengchu.cache.VodCollectDao;
-import com.github.tvbox.fengchu.cache.VodRecord;
-import com.github.tvbox.fengchu.cache.VodRecordDao;
+import com.github.tvbox.osc.cache.Cache;
+import com.github.tvbox.osc.cache.CacheDao;
+import com.github.tvbox.osc.cache.VodCollect;
+import com.github.tvbox.osc.cache.VodCollectDao;
+import com.github.tvbox.osc.cache.VodRecord;
+import com.github.tvbox.osc.cache.VodRecordDao;
 
 
 /**

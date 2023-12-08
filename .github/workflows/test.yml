@@ -28,11 +28,10 @@ jobs:
           sed -i '$a\RELEASE_KEY_PASSWORD=TVBoxOSC'         ./gradle.properties
       - name: Print Java Version
         run: java -version
-      - name: Print Gradle Version
-        run: ./gradlew --version
       - name: Build With Gradle
         run: |
           chmod +x gradlew
+          ./gradlew --version
           ./gradlew assemblerelease --build-cache --parallel --daemon --warning-mode all
       - name: Prepare App
         run: |

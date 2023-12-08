@@ -26,6 +26,10 @@ jobs:
           sed -i '$a\RELEASE_KEY_ALIAS=TVBoxOSC'            ./gradle.properties
           sed -i '$a\RELEASE_STORE_PASSWORD=TVBoxOSC'       ./gradle.properties
           sed -i '$a\RELEASE_KEY_PASSWORD=TVBoxOSC'         ./gradle.properties
+      - name: Print Java Version
+        run: java -version
+      - name: Print Gradle Version
+        run: ./gradlew --version
       - name: Build With Gradle
         run: |
           chmod +x gradlew

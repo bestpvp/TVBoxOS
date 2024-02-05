@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/bestpvp/tm/raw/master/source/stable/main.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://atomgit.com/bestpvp/tm/raw/master/source/stable/main.json");
         if (apiUrl.isEmpty()) {
             callback.error("关注[码上放生]公众号\n获取最新的[时光机]数据源");
             return;
